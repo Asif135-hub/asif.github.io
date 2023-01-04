@@ -30,10 +30,7 @@ h2 {
   font-size: 1.618em;
   line-height: 1.618;
 }
-h2::-moz-selection {
-  color: #ffc72b;
-  background-color: #003091;
-}
+
 h2::selection {
   color: #ffc72b;
   background-color: #003091;
@@ -61,7 +58,7 @@ body {
   position: relative;
   z-index: 1;
   background-color: #ffffff;
-  color: #000000);
+  color: #000000;
 }
 
 ol {
@@ -163,7 +160,7 @@ header .first-header .heading-part .second-heading {
   text-align: center;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: black;
-  text-transform: normal;
+  text-transform: none;
   background: white;
   text-decoration: none;
   margin-left: -5px;
@@ -186,7 +183,7 @@ header .first-header .heading-part .second-heading {
   padding: 10px 15px;
   display: none;
   cursor: pointer;
-  text-transform: normal;
+  text-transform: none;
 }
 
 .mobile-menu .show-menu span {
@@ -340,7 +337,6 @@ header .first-header .heading-part .second-heading {
 .product-main .img-box-pro a img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -578,7 +574,6 @@ footer {
   .product-main .img-box-pro a img {
     width: 100%;
     aspect-ratio: 16/9;
-    -o-object-fit: cover;
     object-fit: cover;
   }
   .product-main .img-box-pro a:nth-child(3) {
@@ -694,7 +689,6 @@ footer {
   .product-main .img-box-pro a img {
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
     object-fit: cover;
   }
   .product-main .img-box-pro a:nth-child(3) {
